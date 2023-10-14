@@ -1,0 +1,56 @@
+﻿Getting Started With Html
+
+
+Question:2 Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML documents ?
+
+
+Answer: Purpose of Comments: Comments are very useful in html for writing messages and for writing any information about code and that information or that specific part will not be rendered on the web page.
+
+
+* Comments are used for documentation in html means for giving the information about the code and functionality of the code to understand the codebase by ourself and for other developer working on the same codebase. This thing is very useful for ourself and for other developer working on the same codebase.
+* Comments are also used for debugging. We can use comment for troubleshooting and for disabling the specific part of the code without deleting it.
+* Comments are also helpful while the work in progress to tell the developer its still incomplete or we need to make more changes.We can also use comments for reminder in the codebase to know that we need to make any changes in that. 
+
+
+How to use comments: We can use Comments in Html 
+
+
+ <!-- This is comment --> 
+We can also do it by using Ctrl + / (forward slash) key.
+
+
+Question:4 Write a short note on Tag and element with an example ?
+
+
+Answer: Tag: There is a system of tags in html which gives structure and layout of the web page. Tags are consist of angular brackets (<>). Tags starts with lesser than symbol and ends with greater than symbol(>) and Tagname between these symbols. A Tag starts with start tag and in some cases ends with end tag, end tag is completely similar to the opening tag but it just adds a forward slash (/)  before tag name.
+
+
+There are two types of tags in Html are:
+
+
+1.  Singular Tags: Singular tags are also called as Void tags. In easy words we can say that singular tags are self closing tag they don’t need any end tag.
+
+
+For example:  </img>, </input> , </br> etc.
+
+
+2. Paired Tags: Paired tags are also known as  container tags. In easy words we can say these tags have pair of two tags opening tag and ending tag it cloud be more also different situations.
+
+
+For Example: <h1> </h1>, <head> </head> etc.
+
+
+Elements: Elements are consist of tags opening tag and ending tag and content between them are together called as Element. These are building blocks in Html. Different different elements gives different structure and layout to the web page. Opening Tag tells tells the begining of the element and ending tag tells the end of the element.
+
+
+For Example: <h1> Heading </h1>  This comlete thing is called as element.
+
+
+Question:5 What is the DOCTYPE Declaration in HTML ?
+
+
+Answer: We can easily understand DOCTYPE Declaration in html with the word DOCTYPE
+DOC means document and TYPE means type of the document. Basically DOCTYPE tells the type of the document to web browser to understand the type of document and render it on the web page.This is written in top of the document or we can say this is written in first line of the code. It looks like this .
+
+
+<!DOCTYPE html>
